@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import NavBar from './components/NavBar/Navbar';
 import Counter from "./components/Counter/Counter";
 
 
@@ -12,7 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <NavBar></NavBar>
+        
+      <p>FEijao com farinha</p>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
