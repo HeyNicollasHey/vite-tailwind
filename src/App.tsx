@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './components/NavBar/Navbar';
 import Counter from "./components/Counter/Counter";
+import { Content } from './components';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <Content></Content>
         <Counter></Counter>
       
       </div>
