@@ -5,7 +5,7 @@ export default function Counter() {
 
   return (
     <div className="bg-blue-600 p-6 rounded-lg shadow-md max-w-sm mx-auto mt-8">
-      <h2 className="text-2xl font-bold mb-4 text-center">Contador</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">Contador Boladão</h2>
       <p className="text-center text-lg mb-4">Valor: {count}</p>
       <div className="flex justify-center gap-4">
         <button
